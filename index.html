@@ -31,7 +31,7 @@
       <!-- VIDEO POPUP -->
       <div class="popup" data-popup="video">
         <div class="popup__inner video__inner">
-          <iframe id="video" width="100%" height="100%" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+          <iframe id="video" width="100%" height="100%" src="./resources/videos/intro.mp4"></iframe>
           <!-- If you have Youtube video or any external video, use iframe above. Otherwise use video element below; -->
           <!-- <video id="video" src="./path-to-video"></video> -->
         </div>
@@ -221,35 +221,34 @@
         </div>
         <div class="content-section section--hidden" data-page="2">
           <h1 class="content-section__title">WHAT WE OFFER</h1>
-          <p class="content-section__text">Also we offer huge ammount of services. We are your one stop partner for all your needs. Check out all of the services we offer below.</p>
+          <p class="content-section__text">InSight3D offers services ranging from corporate, education & more. </p>
           <div class="content-services">
             <div class="content-services__service">
               <img class="content-service__image" src="./resources/images/icons/marketing.svg" alt="Marketing icon" />
-              <span class="content-service__text">Marketing</span>
+              <span class="content-service__text">Core Services</span>
               <ul class="extended-services">
-                <li class="extended-services__service">SEO</li>
-                <li class="extended-services__service">Linear</li>
-                <li class="extended-services__service">Public</li>
-                <li class="extended-services__service">Comercial</li>
+                <li class="extended-services__service">Artificial Intelligence</li>
+                <li class="extended-services__service">Metaverse</li>
+                <li class="extended-services__service">Freelance</li>
+                <li class="extended-services__service">Blockchain</li>
               </ul>
             </div>
             <div class="content-services__service">
               <img class="content-service__image" src="./resources/images/icons/analytics.svg" alt="Marketing icon" />
-              <span class="content-service__text">Analytics</span>
+              <span class="content-service__text">Education</span>
               <ul class="extended-services">
-                <li class="extended-services__service">SEO</li>
-                <li class="extended-services__service">Linear</li>
-                <li class="extended-services__service">Public</li>
-                <li class="extended-services__service">Comercial</li>
+                <li class="extended-services__service">Workshops</li>
+                <li class="extended-services__service">Live Events</li>
+                <li class="extended-services__service">Resources</li>
               </ul>
             </div>
             <div class="content-services__service">
               <img class="content-service__image" src="./resources/images/icons/consulting.svg" alt="Marketing icon" />
-              <span class="content-service__text">Consulting</span>
+              <span class="content-service__text">Support</span>
               <ul class="extended-services">
-                <li class="extended-services__service">SEO</li>
-                <li class="extended-services__service">Linear</li>
-                <li class="extended-services__service">Public</li>
+                <li class="extended-services__service">Websites</li>
+                <li class="extended-services__service">Databases</li>
+                <li class="extended-services__service">General Support</li>
                 <li class="extended-services__service">Comercial</li>
               </ul>
             </div>
@@ -257,33 +256,23 @@
               <img class="content-service__image" src="./resources/images/icons/research.svg" alt="Marketing icon" />
               <span class="content-service__text">Research</span>
               <ul class="extended-services">
-                <li class="extended-services__service">SEO</li>
-                <li class="extended-services__service">Linear</li>
-                <li class="extended-services__service">Public</li>
+                <li class="extended-services__service">Public/Private</li>
+                <li class="extended-services__service">Market</li>
                 <li class="extended-services__service">Comercial</li>
               </ul>
             </div>
           </div>
-          <button class="content-section__button button button--secondary" id="button_offers">VIEW ALL SERVICES</button>
+          
         </div>
-        <div class="content-section section--hidden content-section--left-align" data-page="3">
+        <div class="content-section section--hidden content-section--left-align" data-page="3" id="meetteam">
           <div class="content-holder--left-align">
-            <h1 class="content-section__title">MEET THE TEAM</h1>
-            <p class="content-section__text text-indent content-section__text-team">Companies can't survive without smart people running them. We have some of the most highly passionate individuals with a vision for your success. Not all heroes wear capes. Check out the people of tomorrow today.</p>
-            <button class="content-section__button button button--secondary" id="button_team">VIEW TEAM</button>
+            <h1 class="content-section__title">MEET THE FOUNDER</h1>
+            <p class="content-section__text text-indent content-section__text-team">Neil Shah founded InSight3D in 2020 during the Covid-19 Pandemic, he is a Student in Sharon, MA and strives to learn more about emerging technology. Thats why he founded InSight3D, to help more people learn & implement Web3 in their own lives or companies.</p>
+            <button class="content-section__button button button--secondary" onclick="window.location.href='https://calendly.com/neildshah/meeting';">Meet Neil</button>
           </div>
           <div class="content-section__images">
             <div class="content-section__image-holder">
-              <img class="content-section__image" src="./resources/images/persons/person1.jpg" alt="Team photo" />
-            </div>
-            <div class="content-section__image-holder">
-              <img class="content-section__image" src="./resources/images/persons/person2.jpg" alt="Team photo" />
-            </div>
-            <div class="content-section__image-holder">
-              <img class="content-section__image" src="./resources/images/persons/person3.jpg" alt="Team photo" />
-            </div>
-            <div class="content-section__image-holder">
-              <img class="content-section__image" src="./resources/images/persons/person4.jpg" alt="Team photo" />
+              <img class="content-section__image" src="./resources/images/icons/INSIGHT3d (1).gif" alt="Team photo" />
             </div>
           </div>
         </div>
@@ -316,9 +305,9 @@
             <a class="content-section__button button button--icon" href="mailto:YOUREMAILHERE">
               <img class="button__image" src="./resources/images/icons/email.svg" alt="Email icon"/>
               <span class="button__text">EMAIL US</span>
-              <span class="button__invisible-email">youremail@here.com</span>
+              <span class="button__invisible-email">neil@insight3d.tech</span>
             </a>
-            <a class="content-section__button button button--icon" href="tel:+0011223344">
+            <a class="content-section__button button button--icon" href="tel:+6177043116">
               <img class="button__image" src="./resources/images/icons/phone.svg" alt="Phone icon"/>
               <span class="button__text">CALL US</span>
             </a>
