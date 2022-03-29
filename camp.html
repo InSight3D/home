@@ -1,1 +1,20 @@
-<meta http-equiv="Refresh" content="0; url='https://www.eventbrite.com/e/introduction-to-python-tickets-309060547417'" />
+<div id="eventbrite-widget-container-309060547417"></div>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '309060547417',
+        iframeContainerId: 'eventbrite-widget-container-309060547417',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
