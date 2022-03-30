@@ -180,7 +180,7 @@ canvas {
 .menu-list__item {
   color: var(--secondaryColor);
   position: relative;
-  font: 900 120px Roboto, sans-serif;
+  font: 450 60px Roboto, sans-serif;
   letter-spacing: var(--letterSpacing);
   cursor: pointer;
   padding-left: 30px;
