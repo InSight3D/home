@@ -1,15 +1,1 @@
 <iframe id="yammer-iframe" class="no-border" src="https://web.yammer.com/embed/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMTA1NjE2MDc2ODAifQ?header=true&footer=false&hideNetworkName=false&theme=dark&includeFeedInformation=true"  scrolling="no" width="100%" frameBorder="0"></iframe>
-<script>
-    (function() {
-        const ifrm = document.getElementById("yammer-iframe");
-        window.addEventListener("message", function (e) {
-            const d = e.data || {};
-            if (d.type === "height"){
-                ifrm.style.height = d.data + "px";
-            }
-            if (d.type === "scroll") {
-                ifrm.scrollIntoView();
-            }
-        });
-    })();
-</script>
